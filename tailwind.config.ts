@@ -24,6 +24,11 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				nexa: {
+					blue: 'hsl(var(--nexa-blue))',
+					purple: 'hsl(var(--nexa-purple))',
+					cyan: 'hsl(var(--nexa-cyan))'
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'

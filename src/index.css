@@ -2,39 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* NEXA AI Impact Analyzer Design System 
+Professional tech/AI theme with modern gradients and effects
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 222 14% 8%;
+    --foreground: 210 40% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 222 20% 12%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 222 20% 12%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 260 100% 65%;
+    --primary-foreground: 222 14% 8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 222 20% 16%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 222 20% 16%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 280 100% 70%;
+    --accent-foreground: 222 14% 8%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 222 20% 20%;
+    --input: 222 20% 16%;
+    --ring: 260 100% 65%;
+    
+    /* NEXA Brand Colors */
+    --nexa-blue: 260 100% 65%;
+    --nexa-purple: 280 100% 70%;
+    --nexa-cyan: 190 100% 75%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--nexa-blue)), hsl(var(--nexa-purple)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--nexa-purple)), hsl(var(--nexa-cyan)));
+    --gradient-card: linear-gradient(135deg, hsl(222 20% 12%), hsl(222 20% 16%));
+    
+    /* Effects */
+    --shadow-nexa: 0 25px 50px -12px hsl(var(--nexa-blue) / 0.25);
+    --glow-nexa: 0 0 40px hsl(var(--nexa-blue) / 0.5);
 
     --radius: 0.5rem;
 
